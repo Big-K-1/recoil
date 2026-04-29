@@ -1,10 +1,10 @@
-# 🎬 MyMovie - Smart Recovery Tool for ExoPlayer Cached TS Segments (Disguised .exo Support)
+# 🎬 Recoil — ExoPlayer TS Fragment Recovery Tool
 
 ![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-required-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-MyMovie is a professional recovery tool for ExoPlayer-cached TS segments, specifically designed for **disguised .exo / .ts files exported by ExoPlayer**. It automatically reassembles fragmented MPEG-TS video segments, supports non-contiguous episode auto-separation, and intelligent ad detection. **No m3u8 file required** — works perfectly even when m3u8 is obfuscated or missing.
+Recoil is a recovery tool for ExoPlayer-cached TS segments, specifically designed for **disguised .exo / .ts files exported by ExoPlayer**. It automatically reassembles fragmented MPEG-TS video segments, supports non-contiguous episode auto-separation, and intelligent ad detection. **No m3u8 file required** — works perfectly even when m3u8 is obfuscated or missing.
 
 ## ✨ Core Features
 
@@ -94,7 +94,6 @@ python main.py
 - ✅ Fixed ad false positives (only 30fps flagged as ads)
 - ✅ Episode Pre-grouping multi-stream tracking
 - ✅ Optimized intra-group greedy merge algorithm
-- ✅ Processing results: 14 main episodes + 17 ad segments
 
 ### v2.8 (2026-04-14)
 

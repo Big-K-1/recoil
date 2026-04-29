@@ -1,8 +1,8 @@
-# 🎬 MyMovie — ExoPlayer Video Recovery Tool — Developer Documentation
+# 🎬 Recoil — ExoPlayer Video Recovery Tool — Developer Documentation
 
 ## 📖 Overview
 
-MyMovie automatically recovers and reassembles fragmented video files (.exo / .ts) from ExoPlayer caches, with support for non-contiguous episode auto-separation.
+Recoil automatically recovers and reassembles fragmented video files (.exo / .ts) from ExoPlayer caches, with support for non-contiguous episode auto-separation.
 
 **Core technology**: Parallel-Universe Collision Algorithm (timeline-overlap detection)
 
@@ -270,10 +270,6 @@ When you encounter issues:
 1. **Ad false-positive fix** — only fps=30 is flagged as ad, improving accuracy
 2. **Episode Pre-grouping multi-stream tracking** — supports simultaneous processing of multiple video sources
 3. **Intra-group greedy merge** — optimized fragment merging strategy, improving throughput
-
-**Processing result**:
-- 14 main episodes + 17 ad fragments
-- Significant accuracy improvement
 
 ---
 
