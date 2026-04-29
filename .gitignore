@@ -1,0 +1,49 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Video files — never commit raw or output media
+*.exo
+*.ts
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+
+# Runtime directories (output / temp / logs)
+Workspace_Temp/
+Final_Episodes/
+logs/
+
+# Debug / one-off analysis scripts
+debug_analysis.py
+
+# AI assistant files
+.claude/
+*.temp.claude/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Temporary / junk files
+*.tmp
+*.log
