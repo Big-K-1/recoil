@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-required-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License](https://img.shields.io/badge/License-AGPL--3.0-red.svg)
 
 Recoil is a recovery tool for ExoPlayer-cached TS segments, specifically designed for **disguised .exo / .ts files exported by ExoPlayer**. It automatically reassembles fragmented MPEG-TS video segments, supports non-contiguous episode auto-separation, and intelligent ad detection. **No m3u8 file required** — works perfectly even when m3u8 is obfuscated or missing.
 
@@ -118,7 +118,7 @@ Ad files are prefixed with `AD_Seg_X.ts` for easy identification.
 
 ## 📄 License
 
-MIT License — see the [LICENSE](LICENSE) file for details.
+GNU Affero General Public License v3.0 — see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
